@@ -30,3 +30,11 @@ __
 *Back-End*
 Los datos de la tabla de la pantalla principal se tienen que actualizar automaticamente al día presente.
 __
+
+!important
+El *Front-end* Esta hecho con Angular Material, entonces hay agregarlo cuando haga el deploy de la app. 
+
+____________________________________________________________________________________________________________________
+
+Finalizadas las tareas previas, diseñaremos *De verdad* la plataforma.
+
