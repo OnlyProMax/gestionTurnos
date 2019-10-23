@@ -38,3 +38,12 @@ ________________________________________________________________________________
 
 Finalizadas las tareas previas, diseñaremos *De verdad* la plataforma.
 
+____________________________________________________________________________________________________________________
+
+La aplicación de vista para el calendario del día por día será la siguiente. 
+
+- https://mattlewis92.github.io/angular-calendar/#/kitchen-sink
+
+- https://stackblitz.com/edit/angular6-calendar
+
+____________________________________________________________________________________________________________________
