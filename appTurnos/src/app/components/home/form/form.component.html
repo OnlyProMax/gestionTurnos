@@ -2,19 +2,26 @@
 <div class="container">
   <h2 class="mt-5">Formulario</h2>
   <hr>
-  <div class="">
+  <div class="text-center">
     <form class="" action="" method="post">
-      <mat-form-field class="">
-         <input matInput placeholder="Name">
-      </mat-form-field>
-      <br>
-      <mat-form-field class="example-full-width">
-         <input matInput placeholder="Weight">
-      </mat-form-field>
-      <br>
-      <mat-form-field class="example-full-width">
-         <input matInput placeholder="Symbol">
-      </mat-form-field>
+      <div>
+        <mat-form-field class="form-group">
+           <input matInput type="number" placeholder="Number">
+        </mat-form-field>
+        &nbsp;
+        <mat-form-field class="form-group">
+           <input matInput placeholder="Name">
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="">
+           <input matInput placeholder="Weight">
+        </mat-form-field>
+        &nbsp;
+        <mat-form-field class="">
+           <input matInput placeholder="Symbol">
+        </mat-form-field>
+      </div>
       <div>
         <button mat-raised-button class="">Añadir Dato</button>
       </div>
