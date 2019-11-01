@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import { MatTableDataSource, MatPaginator, MatButtonModule, MatInputModule } from '@angular/material';
 
 export interface PeriodicElement {
@@ -48,5 +49,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.dataSource.paginator = this.paginator;
   }
-
+  applyFilter(filterValue: string) {
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+  }
 }

@@ -4,10 +4,10 @@
   <hr>
   <div class="d-flex justify-content-between">
     <div>
-      <form class="" action="index.html" method="post">
+      <form>
         <mat-form-field class="example-full-width">
-           <input matInput placeholder="Search here">
-         </mat-form-field>
+           <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Search here">
+        </mat-form-field>
       </form>
     </div>
     <div>
